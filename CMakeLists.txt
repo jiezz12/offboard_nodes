@@ -290,10 +290,6 @@ add_executable(ar_detection src/ar_detection.cpp)
 target_link_libraries(ar_detection
   ${catkin_LIBRARIES}
 )
-add_executable(v2_ar_detection src/v2_ar_detection.cpp)
-target_link_libraries(v2_ar_detection
-  ${catkin_LIBRARIES}
-)
 add_executable(duoji src/duoji.cpp)
 target_link_libraries(duoji
   ${catkin_LIBRARIES}
