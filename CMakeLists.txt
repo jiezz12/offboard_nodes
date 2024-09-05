@@ -294,3 +294,7 @@ add_executable(duoji src/duoji.cpp)
 target_link_libraries(duoji
   ${catkin_LIBRARIES}
 )
+add_executable(apriltag_detection src/apriltag_detection.cpp)
+target_link_libraries(apriltag_detection
+  ${catkin_LIBRARIES}
+)
